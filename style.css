@@ -1,0 +1,108 @@
+
+
+.background{
+  width: 50%;
+  height: 750px;
+  margin: auto;
+  display: table;
+
+  background-image: url("https://images.freeimages.com/images/large-previews/01a/technology-background-1632715.jpg");
+}
+
+.innerbox{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: table;
+  margin-top: 65px;
+
+  background-image: unset;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 5px 5px rgb(22, 11, 68);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+  /*.box{
+    background-image: unset;
+    background-color: whitesmoke;
+    display: unset;
+  }*/
+
+  .box {
+    font-weight: bold;
+    display: block;
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  .box .list {
+  /*   background-color: red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    width: 400px;
+  }
+  .list p {
+    font-size: 20px;
+    margin: 0px;
+  }
+
+input{
+width:250px;
+height: 40px;
+box-shadow: 0px 0px 3px 3px rgb(22, 11, 68);
+border-radius: 10px;
+margin: 10px;
+font-size: larger;
+overflow: hidden;
+float: unset;
+line-height:40px;
+
+
+}
+
+button{
+  width:80px;
+  height: 50px;
+  box-shadow: 0px 0px 3px 3px rgb(22, 11, 68);
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: rgb(22, 11, 68);
+  color:white;
+  overflow: hidden;
+  float: unset;
+  line-height:40px;
+}
+
+
+
+
+h1{
+  font-size: 60px; 
+  color:black;
+  margin-bottom: 20px;
+}
+
+#del{
+  color:rgb(22, 11, 68);
+  
+  display: inline-block;
+  size: inherit;
+  position: absolute;
+  right: 0px;
+}
+
+#ok{
+  color:rgb(22, 11, 68);
+  
+  display: inline-block;
+  size: inherit;
+  position: absolute;
+  right: 50px;
+}
