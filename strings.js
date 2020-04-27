@@ -19,7 +19,7 @@ $(document).ready(function(){
   });
 
   $('.box').on('click', '#ok', (event) => {
-    $(event.target).parent().css('color','#dddddd');
+    $(event.target).parent().css('color','#009900');
     $(event.target).removeClass('ok');
     $(event.target).addClass('oki');
   });
